@@ -1,0 +1,56 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+    /* width: 1440px; */
+    /* Helps with centering content */
+    height: 100%;
+}
+
+/* Main Container with Flexbox */
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    font-family: 'Outfit', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: hsl(0, 0%, 100%);
+    padding: 1.15rem;
+    text-align: center;
+    border-radius: 3%;
+    /* Drops the element to center-ish */
+    margin-top: 15%;
+}
+
+img {
+    border-radius: 3%;
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    margin-bottom: -1px;
+
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    margin-bottom: 1.25rem;
+}
+
+
+/* This will be used to style the attribution */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
